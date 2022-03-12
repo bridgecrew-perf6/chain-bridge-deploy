@@ -3,9 +3,7 @@
 deploy contract
 - [**doc**](./docs/doc.md)
 
-edit config 
-    
-    
+edit config files
 
 generic key
 
