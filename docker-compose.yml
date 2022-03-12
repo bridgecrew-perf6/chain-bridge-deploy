@@ -1,0 +1,42 @@
+version: '3'
+
+networks:
+  pledge-bridge:
+
+services:
+  pledge-bridge-relayer0:
+    image: chainsafe/chainbridge:v1.1.5
+    container_name: relayer0
+    restart: always
+    environment:
+      - KEYSTORE_PASSWORD=pledge
+    command: --config /config/config.json --verbosity trace --latest
+    volumes:
+      - ./config/config0.json:/config/config.json
+      - ./keys/0xef83be706597Dd409e49ed488F3e23cEB98Dc495.key:/keys/0xef83be706597Dd409e49ed488F3e23cEB98Dc495.key
+    networks:
+      - pledge-bridge
+  pledge-bridge-relayer1:
+    image: chainsafe/chainbridge:v1.1.5
+    container_name: relayer1
+    restart: always
+    environment:
+      - KEYSTORE_PASSWORD=pledge
+    command: --config /config/config.json --verbosity trace --latest
+    volumes:
+      - ./config/config1.json:/config/config.json
+      - ./keys/0xec9EB2bf4497d448FB61171C54D295702C9F5cbC.key:/keys/0xec9EB2bf4497d448FB61171C54D295702C9F5cbC.key
+    networks:
+      - pledge-bridge
+  pledge-bridge-relayer2:
+    image: chainsafe/chainbridge:v1.1.5
+    container_name: relayer2
+    restart: always
+    environment:
+      - KEYSTORE_PASSWORD=pledge
+    command: --config /config/config.json --verbosity trace --latest
+    volumes:
+      - ./config/config2.json:/config/config.json
+      - ./keys/0xD5f92Fd92F8c7f9391513E3019D9441aAf5b2D9E.key:/keys/0xD5f92Fd92F8c7f9391513E3019D9441aAf5b2D9E.key
+    networks:
+      - pledge-bridge
