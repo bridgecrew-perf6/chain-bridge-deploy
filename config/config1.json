@@ -7,9 +7,8 @@
 			"endpoint": "https://data-seed-prebsc-1-s1.binance.org:8545/",
 			"from": "0xec9EB2bf4497d448FB61171C54D295702C9F5cbC",
 			"opts": {
-				"bridge": "0x11F565667a9B3dA6CBC843624A1293AAD8534A2a",
-				"erc20Handler": "0x647388F61f05cf87cb5441bacAe6099D4139d2C5",
-				"genericHandler": "0x0735e079319c8160e3B4cbFa3c4aaA91Ae8A23AE",
+				"bridge": "0xe4C07eFb7De02339989CF1f23ff46037CB33A118",
+				"genericHandler": "0x600445332F192e834EAD6f7567BE903242E82c65",
 				"gasLimit": "1000000",
 				"maxGasPrice": "10000000000",
 				"startBlock": "0",
@@ -23,9 +22,8 @@
 			"endpoint": "https://ropsten.infura.io/v3/acb534b53d3a47b09d7886064f8e51b6",
 			"from": "0xec9EB2bf4497d448FB61171C54D295702C9F5cbC",
 			"opts": {
-				"bridge": "0xFFfE10DA4373A12Fb14dE9d900465d65FFD3E37e",
-				"erc20Handler": "0xe3D8Bd14C8099f90191db00718d08AB11f8F538B",
-				"genericHandler": "0x68AEFd8c6f380e34d33F41c6c6af955Df4934Df4",
+				"bridge": "0xa714dCd65490174d55E9A18f34ebaB6EaCA886aF",
+				"genericHandler": "0x80aCa930a774cc69e4d6E73d6EA5B9B5C1bbB461",
 				"gasLimit": "1000000",
 				"maxGasPrice": "100000000000",
 				"startBlock": "0",
