@@ -7,8 +7,8 @@
 			"endpoint": "https://data-seed-prebsc-1-s1.binance.org:8545/",
 			"from": "0xef83be706597Dd409e49ed488F3e23cEB98Dc495",
 			"opts": {
-				"bridge": "0x92fd3FDA96A35449924B1d47BF03b73f2984b077",
-				"genericHandler": "0x8Aa08Ac537720b3c62342BaD3Ccd1a5fcc736bDD",
+				"bridge": "0xB4881c40c80Ef2ED8431f67F49A5A635f040812c",
+				"genericHandler": "0xcb805b5e16Ea76863640f2bc4C3086947AAea01B",
 				"gasLimit": "1000000",
 				"maxGasPrice": "10000000000",
 				"startBlock": "0",
