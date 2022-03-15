@@ -7,8 +7,8 @@
 			"endpoint": "https://data-seed-prebsc-1-s1.binance.org:8545/",
 			"from": "0xef83be706597Dd409e49ed488F3e23cEB98Dc495",
 			"opts": {
-				"bridge": "0xe4C07eFb7De02339989CF1f23ff46037CB33A118",
-				"genericHandler": "0x600445332F192e834EAD6f7567BE903242E82c65",
+				"bridge": "0x92fd3FDA96A35449924B1d47BF03b73f2984b077",
+				"genericHandler": "0x8Aa08Ac537720b3c62342BaD3Ccd1a5fcc736bDD",
 				"gasLimit": "1000000",
 				"maxGasPrice": "10000000000",
 				"startBlock": "0",
@@ -22,8 +22,8 @@
 			"endpoint": "https://ropsten.infura.io/v3/acb534b53d3a47b09d7886064f8e51b6",
 			"from": "0xef83be706597Dd409e49ed488F3e23cEB98Dc495",
 			"opts": {
-				"bridge": "0xa09b585115c19778fA59D23623c698e92E43996c",
-				"genericHandler": "0x8598e972FA1289becd81d3EE5a28FCc76C7081bA",
+				"bridge": "0x232656BcB21A4Ce7Bb75ad60875A51789F6F5923",
+				"genericHandler": "0xb10cE4981c15D92d1CA8e7C93FcDd712A3021EBB",
 				"gasLimit": "1000000",
 				"maxGasPrice": "100000000000",
 				"startBlock": "0",
