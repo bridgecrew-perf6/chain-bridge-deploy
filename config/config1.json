@@ -7,8 +7,8 @@
 			"endpoint": "https://data-seed-prebsc-1-s1.binance.org:8545/",
 			"from": "0xec9EB2bf4497d448FB61171C54D295702C9F5cbC",
 			"opts": {
-				"bridge": "0xB4881c40c80Ef2ED8431f67F49A5A635f040812c",
-				"genericHandler": "0xcb805b5e16Ea76863640f2bc4C3086947AAea01B",
+				"bridge": "0x2B8550cCCd84698f9934b297D79ac970DEab4734",
+				"genericHandler": "0x0879814F75D4aa6882583787cd47c0435e94B641",
 				"gasLimit": "1000000",
 				"maxGasPrice": "10000000000",
 				"startBlock": "0",
@@ -19,7 +19,7 @@
 			"name": "ETH",
 			"type": "ethereum",
 			"id": "1",
-			"endpoint": "https://ropsten.infura.io/v3/acb534b53d3a47b09d7886064f8e51b6",
+			"endpoint": "https://ropsten.infura.io/v3/f2ff8becef8e40df950e0e827992c5e0",
 			"from": "0xec9EB2bf4497d448FB61171C54D295702C9F5cbC",
 			"opts": {
 				"bridge": "0x232656BcB21A4Ce7Bb75ad60875A51789F6F5923",
