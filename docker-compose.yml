@@ -13,7 +13,7 @@ services:
     command: --config /config/config.json --verbosity trace --latest
     volumes:
       - ./config/config0.json:/config/config.json
-      - ./keys/0xef83be706597Dd409e49ed488F3e23cEB98Dc495.key:/keys/0xef83be706597Dd409e49ed488F3e23cEB98Dc495.key
+      - ./keys/0x100c8DA1f36e6f097778dA71ea6937bBF9f803fB.key:/keys/0x100c8DA1f36e6f097778dA71ea6937bBF9f803fB.key
     networks:
       - pledge-bridge
   pledge-bridge-relayer1:
@@ -25,7 +25,7 @@ services:
     command: --config /config/config.json --verbosity trace --latest
     volumes:
       - ./config/config1.json:/config/config.json
-      - ./keys/0xec9EB2bf4497d448FB61171C54D295702C9F5cbC.key:/keys/0xec9EB2bf4497d448FB61171C54D295702C9F5cbC.key
+      - ./keys/0x4a9b6dd4F7180E30784657fA7e96151AFf71063A.key:/keys/0x4a9b6dd4F7180E30784657fA7e96151AFf71063A.key
     networks:
       - pledge-bridge
   pledge-bridge-relayer2:
@@ -37,6 +37,6 @@ services:
     command: --config /config/config.json --verbosity trace --latest
     volumes:
       - ./config/config2.json:/config/config.json
-      - ./keys/0xD5f92Fd92F8c7f9391513E3019D9441aAf5b2D9E.key:/keys/0xD5f92Fd92F8c7f9391513E3019D9441aAf5b2D9E.key
+      - ./keys/0x1a1285b9c5B32F0ae2a45046571dB53092010169.key:/keys/0x1a1285b9c5B32F0ae2a45046571dB53092010169.key
     networks:
       - pledge-bridge
