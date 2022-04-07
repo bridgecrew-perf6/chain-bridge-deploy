@@ -10,7 +10,7 @@ services:
     restart: always
     environment:
       - KEYSTORE_PASSWORD=pledge
-    command: --config /config/config.json --verbosity trace --blockstore /blockstore
+    command: --config /config/config.json --verbosity trace --blockstore /blockstore  --latest
     volumes:
       - ./config/config0.json:/config/config.json
       - ./blockstore:/blockstore
@@ -23,7 +23,7 @@ services:
     restart: always
     environment:
       - KEYSTORE_PASSWORD=pledge
-    command: --config /config/config.json --verbosity trace --blockstore /blockstore
+    command: --config /config/config.json --verbosity trace --blockstore /blockstore --latest
     volumes:
       - ./config/config1.json:/config/config.json
       - ./blockstore:/blockstore
@@ -36,7 +36,7 @@ services:
     restart: always
     environment:
       - KEYSTORE_PASSWORD=pledge
-    command: --config /config/config.json --verbosity trace --blockstore /blockstore
+    command: --config /config/config.json --verbosity trace --blockstore /blockstore --latest
     volumes:
       - ./config/config2.json:/config/config.json
       - ./blockstore:/blockstore

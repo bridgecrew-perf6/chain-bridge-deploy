@@ -1,6 +1,7 @@
 # cross-chain-bridge
 
 deploy contract
+
 - [**doc**](./docs/doc.md)
 
 generic key
@@ -11,5 +12,7 @@ generic key
 edit config files
 
 run docker
+
+    docker-compose -f ./docker-compose-init.yml up -V   // Run this command when starting for the first time. When the block height is obtained, run the following command
 
     docker-compose -f ./docker-compose.yml up -V
